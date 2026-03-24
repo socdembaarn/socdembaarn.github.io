@@ -1,0 +1,47 @@
+# Site settings
+title: Sociaal Democraten Baarn
+description: Voor een sociaal, duurzaam en rechtvaardig Baarn.
+url: "https://www.sociaaldemocratenbaarn.nl" # Pas dit aan zodra het domein gekoppeld is
+baseurl: ""
+
+# Huisstijl Variabelen (Centraal beheer)
+branding:
+  colors:
+    primary: "#DF111A"      # Het officiële rood
+    primary_hover: "#B00E15"
+    secondary: "#FFFFFF"
+    text_dark: "#333333"
+    background_light: "#F4F4F4"
+  fonts:
+    heading: "'Helvetica Bold', Helvetica, Arial, sans-serif"
+    body: "'Helvetica Regular', Helvetica, Arial, sans-serif"
+
+# Licentie Informatie
+license_info:
+  code: "MIT"
+  content: "CC BY-NC-ND 4.0"
+  branding: "Alle rechten voorbehouden aan Sociaal Democraten Baarn"
+
+# Collecties (De 'atomen' van de site)
+collections:
+  members:
+    output: true
+    permalink: /mensen/:path/
+  dossiers:
+    output: true
+    permalink: /standpunten/:path/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
