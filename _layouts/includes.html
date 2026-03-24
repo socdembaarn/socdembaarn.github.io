@@ -1,0 +1,19 @@
+<head>
+  <style>
+  :root {
+    --primary-color: {{ site.branding.colors.primary }};
+    --primary-hover: {{ site.branding.colors.primary_hover }};
+    --bg-light: {{ site.branding.colors.background_light }};
+  }
+
+  .bg-primary { background-color: var(--primary-color) !important; }
+  .text-primary { color: var(--primary-color) !important; }
+  
+  /* Compacte koppen conform huisstijlgids */
+  h1, h2, h3 { 
+    font-family: {{ site.branding.fonts.heading }};
+    line-height: 0.85;
+    letter-spacing: -0.02em;
+  }
+  </style>
+</head>
