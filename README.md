@@ -25,12 +25,16 @@ De visuele identiteit volgt de vastgestelde richtlijnen voor digitale publicatie
 * **Typografie:** Helvetica Bold voor koppen (compacte interlinie) en Helvetica Regular voor bodytekst.
 * **Layout:** Focus op leesbaarheid en toegankelijkheid (B2/C1 taalniveau).
 
-## 📄 Licenties (Gelaagde aanpak)
-Dit project maakt onderscheid tussen de technische motor en de politieke inhoud:
+## 📄 Licenties & Gebruiksvoorwaarden
 
-1.  **Code (De Motor):** De technische structuur, scripts en layouts vallen onder de **MIT-licentie**. Dit staat andere lokale fracties of afdelingen toe om deze architectuur te hergebruiken.
-2.  **Content (De Boodschap):** Alle teksten, blogposts, dossiers en politieke standpunten vallen onder de **Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken (CC BY-NC-ND 4.0)** licentie.
-3.  **Branding:** De auteursrechten op het logo en de specifieke huisstijl berusten bij de vereniging Sociaal Democraten Baarn.
+Dit project hanteert een gelaagde licentiestructuur om een onderscheid te maken tussen de technische architectuur en de politieke inhoud:
+
+* **Code (De Motor):** De technische structuur, scripts en layouts vallen onder de **MIT-licentie**. Dit staat andere lokale fracties of afdelingen toe om deze architectuur te hergebruiken en verder te ontwikkelen.
+* **Content (De Boodschap):** Alle teksten, blogposts, dossiers en politieke standpunten vallen onder de **Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken (CC BY-NC-ND 4.0)** licentie. Dit betekent dat de inhoud gedeeld mag worden met bronvermelding, maar niet aangepast of commercieel gebruikt mag worden.
+* **Branding:** De auteursrechten op het logo en de specifieke huisstijl berusten bij de vereniging **Sociaal Democraten Baarn**.
+
+---
+*Zie het bestand `LICENSE` voor de volledige juridische tekst van de MIT-licentie voor de softwarecomponenten.*
 
 ---
 
